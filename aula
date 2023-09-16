@@ -1,0 +1,92 @@
+// let condicao = true;
+
+// while(condicao) {
+
+// }
+
+// let i = 0
+
+// while (i < 10) {
+    
+//     console.log(i) 
+
+//     i++
+// }
+
+//  let estomago = 0;
+
+//  while (estomago < 100) {
+//      console.log("quero cavalo");
+//      estomago = estomago + 10;
+//  }
+
+// exercicio 1
+
+// let soma = 0;
+// let numero = Number(prompt("digite um numero"));
+
+// while (numero !== 0) {
+//     soma = soma + numero;
+//     numero = Number(prompt("digite um numero"));
+// }
+// console.log("a soma dos numeros inseridos é: " + soma);
+
+//
+
+// const numeros = [14, 67, 89, 15, 23]
+
+// for(let i = 0; i < 5; i++) {
+//     const elemento = numeros[i]
+//     console.log(elemento)
+// }
+
+// exercicio 2
+
+// function encontrar(arr) {
+//     let maior = arr[0];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > maior) {
+//             maior = arr[i];
+//         }
+//     }
+//     return "o maior numero é " + maior;
+// }
+
+// const numeros = [11, 15, 18, 14, 90, 13];
+// console.log(encontrar(numeros));
+
+//
+//for... of...
+
+
+// const numeros = [14, 67, 89, 15, 23]
+
+// for (let numero of numeros) {
+//     console.log(numero)
+// }
+
+//
+
+
+//  let meuArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//  for (const elemento of meuArray) {
+//      console.log(elemento);
+//  }
+//  meuArray.forEach(elemento => {
+//      console.log(elemento);
+//  })
+
+// exercicio 3
+
+let palavras = ["oi", "cavalo", "emo"];
+
+function retorna(arrayDePalavras) {
+    let frase = " ";
+    for (let i = 0; i < arrayDePalavras.length; i++) {
+        const elemento = arrayDePalavras[1]
+        frase = frase + " " + elemento;
+    }
+    return frase;
+}
+console.log(retorna(palavras));
